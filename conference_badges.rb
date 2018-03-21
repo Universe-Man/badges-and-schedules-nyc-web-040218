@@ -30,9 +30,3 @@ end
 def printer
 
 end
-
-
-
-
-
-
