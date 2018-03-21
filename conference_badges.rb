@@ -9,7 +9,7 @@ def batch_badge_creator(names)
   numberOfNames = names.count
   i = 0
   while i < numberOfNames
-    badgePhrase.push("Hello, my name is #{names[i]}.")
+    badgePhrase.push(badge_maker(names[i]))
     i += 1
   end
   badgePhrase
@@ -30,3 +30,9 @@ end
 def printer
 
 end
+
+
+
+
+
+
